@@ -1,0 +1,396 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+
+@font-face {
+    font-family: tenor;
+    src: url(./Tenor_Sans/TenorSans-Regular.ttf);
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.left_nav img{
+    width: 136px;
+    height: 30px;
+}
+
+.right_nav ul {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    font-family: "tenor";
+}
+
+.right_nav ul li{
+    font-size: 24px;
+    color: #000000;
+    transition: 0.8 ;
+    cursor: pointer;
+}
+
+.right_nav ul li:hover{
+    padding: 3px 5px;
+    background-color: crimson;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+}
+
+hr{
+    color: #e4e1e1;
+    margin-bottom: 80px;
+}
+
+.description{
+    display: flex;
+    gap: 50px;
+    padding-top: 5px;
+}
+
+.left_desc img{
+    border: none;
+    border-radius: 14px;
+    box-shadow: 1px 1px 20px 0.5px cornflowerblue;
+}
+
+.right_desc span{
+    font-family: sans-serif;
+    text-transform:uppercase;
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #999999;
+}
+
+h1{
+    font-size: 40px;
+    font-weight: 400;
+    font-family: "tenor";
+    color: #000000;
+    padding-top: 16px;
+    padding-bottom: 26px;
+
+}
+
+.right_desc p{
+    font-family: "tenor";
+    font-size: 16px;
+    font-weight: 400;
+    color: #666666;
+    padding-bottom: 28px;
+}
+
+
+.right_desc b{
+    font-family:sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    color: #000000;
+    letter-spacing: 1px;
+}
+
+.boxes{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 1320px;
+
+}
+
+.box{
+    width: 406px;
+    padding-top: 35px;
+    box-shadow: 1px 1px 20px 0.5px cornsilk;
+}
+
+.box img{
+    width: 100%;
+    padding-bottom: 22px;
+    border: none;
+    border-radius: 10px;
+}
+
+.box span{
+    font-size: 12px;
+    font-family: sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #999999;
+    padding-top: 24px;
+}
+
+.box h2{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "tenor";
+    color: #000000;
+    text-transform: capitalize;
+    padding-bottom: 15px;
+}
+
+.box p{
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    font-family: sans-serif;
+    color: #000000;
+    padding-bottom: 40px;
+}
+
+.hero_desc p{
+    font-size: 12px;
+    font-weight: 400;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    color: #999999;
+    text-transform: capitalize;
+    padding-bottom: 30px;
+}
+
+
+.hero_boxes{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    width: 1300px;
+
+}
+
+.box_item{
+    width: 305px;
+    box-shadow: 1px 1px 20px 0.5px cornflowerblue;
+    padding: 5px;
+}
+
+.box_item img{
+    width: 100%;
+    padding-bottom: 22px;
+    border: none;
+}
+
+.box_item span{
+    font-size: 12px;
+    font-family: sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #999999;
+    padding-top: 24px;
+}
+
+.box_item h2{
+    font-size: 19px;
+    font-weight: 400;
+    font-family: "tenor";
+    color: #000000;
+    text-transform: capitalize;
+    padding-bottom: 15px;
+}
+
+.box_item p{
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    font-family: sans-serif;
+    color: #000000;
+    padding-bottom: 40px;
+}
+
+.hero_btn{
+    text-align: center;
+    padding-top: 65px;
+}
+
+.hero_btn button{
+    padding: 18px 22px;
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-family: sans-serif;
+    border: 1px solid black;
+    cursor: pointer;
+    margin-bottom: 100px;
+}
+
+.main-desc p{
+    font-size: 12px;
+    font-weight: 400;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    color: #999999;
+    text-transform: capitalize;
+    padding-bottom: 30px;
+}
+
+.main-desc{
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #999999;
+     font-family: sans-serif;
+}
+
+.main{
+    width: 1500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-box{
+    width: 610px;
+    border: none;
+}
+
+.main-box span{
+    font-size: 12px;
+    font-family: sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #999999;
+    padding-top: 24px;
+}
+
+.main-box h2{
+    font-size: 19px;
+    font-weight: 400;
+    font-family: "tenor";
+    color: #000000;
+    text-transform: capitalize;
+    padding-bottom: 15px;
+}
+
+.main-box p{
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    font-family: sans-serif;
+    color: #000000;
+    padding-bottom: 40px;
+}
+
+footer{
+    background-color: #141414;
+}
+
+.main-footer{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 50px;
+    padding-top: 60px;
+}
+
+.main-footer span{
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-family: "tenor";
+    color: #666666;
+}
+
+footer hr{
+    color: #4D4D4D;
+}
+
+.main-footer P{
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+
+}
+
+.footer-desc p{
+    font-size: 12px;
+    font-family: "tenor";
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #666666;
+    padding-bottom: 20px;
+}
+
+
+.top-footer{
+    display: flex;
+    align-items: center;
+    justify-content:space-between
+}
+
+.top-footer p{
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "tenor";
+    padding-bottom: 15px;
+}
+
+.footer-input p{
+    font-size: 12px;
+    font-family: "tenor";
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #666666;
+}
+
+.footer-input input{
+    padding: 18px 26px;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+
+.footer-input span{
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-family: "tenor";
+    background-color: #000000;
+    padding: 20px 29px;
+}
+
+.last-desc{
+    display: flex;
+    align-items: center;
+    gap: 130px;
+}
+
+.last-desc h3{
+    font-size: 12px;
+    font-family: "tenor";
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #666666;
+    padding-bottom: 15px;
+}
+
+.last-desc p{
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "tenor";
+    padding-bottom: 15px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
